@@ -16,19 +16,20 @@
   </header>
 
   <main>
-
-    <!-- headline -->
+    <!-- container -->
+    <div class="container">
+      <!-- headline -->
     <section>
       <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-      <h4>Scritto da The Booleaner</h4>
-      <h6>il 10/10/2020</h6>
+      <h4>Scritto da <span id="booleaner">The Booleaner</span></h4>
+      <h5>il 10/10/2020</h5>
     </section>  
     <!-- /headline -->
 
     <!-- images -->
-    <div class="images">
-      <img src="/img/tim-1.jpg" alt="Tim">
-      <img src="/img/tim-2.jpg" alt="Tim">
+    <div class="container-images">
+      <img class="image" src="/img/tim-1.jpg" alt="Tim">
+      <img class="image" src="/img/tim-2.jpg" alt="Tim">
       <h6>1st Photo: John S. and James L.Knight Foundation, by Scott Henrichsen</h6>
       <h6>2nd Photo Wikimedia, by Paul Clarke</h6>
     </div>
@@ -36,12 +37,12 @@
 
     <!-- paragraph-->
     <section>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nesciunt, minima dolores assumenda ipsam reiciendis inventore ea officiis. Deleniti voluptatum optio rem accusantium eaque reprehenderit officia, facere tenetur aperiam recusandae possimus pariatur omnis dolore. <span class="highlight">Enim at perspiciatis placeat quos repellat ducimus.</span> Amet consequatur consectetur eum veniam doloremque quae error reprehenderit soluta facilis, repellat iste possimus, libero inventore rem officia cumque magnam deleniti quasi ex? Necessitatibus, neque mollitia eum ex eaque sapiente magni dolor quibusdam vitae doloribus dolore! Quibusdam, recusandae quas officia alias cupiditate veritatis minima iusto itaque, commodi facilis neque. Eaque, facere eveniet sunt dolores sapiente consequatur minus ut pariatur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nesciunt, minima dolores assumenda ipsam reiciendis inventore ea officiis. Deleniti voluptatum optio rem accusantium eaque reprehenderit officia, facere tenetur aperiam recusandae possimus pariatur omnis dolore. <span class="highlight">Enim at perspiciatis placeat quos repellat ducimus.</span> Amet consequatur consectetur eum veniam doloremque quae error reprehenderit soluta facilis, repellat iste possimus, libero inventore rem officia cumque magnam deleniti quasi ex? Necessitatibus</p>
     </section>
     <!-- /paragraph-->
 
     <!-- list -->
-    <section>
+    <section class="list">
       <ul>
         <li>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, et porro vitae commodi placeat ea itaque nulla
@@ -58,46 +59,67 @@
 
     <!-- table with divs -->
     <section>
+      <div class="table">
+        <div class="head-row">
+          <div class="first-cell">
+            <span >Lorem, ipsum dolor.</span>
+          </div>
+          <div class="second-cell">
+            <span >Lorem, ipsum dolor.</span>
+          </div>
+          <div class="third-cell">
+            <span >Lorem, ipsum dolor.</span>
+          </div>
+        <div class="first-row">
+          <div class="first-cell">
+            <span class="cell">Lorem, ipsum dolor.</span>
+          </div>
+          <div class="second-cell">
+            <span class="cell">Lorem, ipsum dolor.</span>
+          </div>
+          <div class="third-cell">
+            <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatum repudiandae alias ratione quis odit nostrum, et nam molestiae velit! Excepturi asperiores rerum dolore iste ducimus voluptatum, ipsum nobis impedit.</span>
+          </div>
+        <div class="second-row">
+          <div class="first-cell">
+            <span class="cell">Lorem, ipsum dolor.</span>
+          </div>
+          <div class="second-cell">
+            <span class="cell">Lorem, ipsum dolor.</span>
+          </div>
+          <div class="third-cell">
+            <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatum repudiandae alias ratione quis odit nostrum, et nam molestiae velit! Excepturi asperiores rerum dolore iste ducimus voluptatum, ipsum nobis impedit.</span>
+          </div>
+        <div class="first-row">
+          <div class="first-cell">
+            <span class="cell">Lorem, ipsum dolor.</span>
+          </div>
+          <div class="second-cell">
+            <span class="cell">Lorem, ipsum dolor.</span>
+          </div>
+          <div class="third-cell">
+            <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptatum repudiandae alias ratione quis odit nostrum, et nam molestiae velit! Excepturi asperiores rerum dolore iste ducimus voluptatum, ipsum nobis impedit.</span>
+          </div>
+          
+          
+          
+        </div>
+        
+        
+      </div>
       
-    <div class="table">
-      <!-- tablehead -->
-      <div class="head">
-        <span class="left-text">Lorem, ipsum dolor.</span>
-        <span class="center-text">Lorem, ipsum dolor.</span>
-        <span class="right-text">Lorem, ipsum dolor.</span>
-      </div>
-      <!-- /tablehead -->
-
-      <!-- firstrow -->
-      <div class="clrdrow">
-        <span class="left-text">Lorem ipsum dolor</span>
-        <span class="center-text">Lorem ipsum dolor</span>
-        <span class="right-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati quam laboriosam harum! Quo optio labore aliquam, doloribus corporis impedit, possimus voluptate ad fugiat facilis culpa pariatur animi similique? Dolore!</span>
-      </div>
-      <!-- /first row -->
-
-      <!-- second row -->
-      <div class="nrmlrow">
-        <span class="left-text">Lorem ipsum dolor</span>
-        <span class="center-text">Lorem ipsum dolor</span>
-        <span class="right-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati quam laboriosam harum! Quo optio labore aliquam, doloribus corporis impedit, possimus voluptate ad fugiat facilis culpa pariatur animi similique? Dolore!</span>
-      </div>
-
-      <!-- third row -->
-      <div class="clrdrow">
-        <span class="left-text">Lorem ipsum dolor</span>
-        <span class="center-text">Lorem ipsum dolor</span>
-        <span class="right-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati quam laboriosam harum! Quo optio labore aliquam, doloribus corporis impedit, possimus voluptate ad fugiat facilis culpa pariatur animi similique? Dolore!</span>
-      </div>
-      <!-- /third row -->
-
-    </div>
+      
+      
     
     </section>
     <!-- /table with divs -->
 
     <!-- second paragraph -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste perspiciatis ducimus repellendus magnam quam molestiae odit beatae aut amet quo ea ex nulla, dolores omnis possimus delectus placeat consequatur et! Molestias similique optio impedit consequuntur, ea minus, obcaecati ducimus nulla nisi doloremque nemo quia excepturi velit deserunt blanditiis laudantium. Quidem vel at hic nesciunt fugiat dolore ipsa eos dolorem dignissimos perferendis sint quae inventore expedita, exercitationem cum odio culpa fuga tempore error possimus delectus odit natus nulla eligendi? Eligendi quo nobis maxime iste illum tempore nihil debitis, nostrum temporibus quia minus animi, a, fuga dicta magni quasi. Minima, tempore!</p>
+    <section>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste perspiciatis ducimus repellendus magnam quam molestiae odit beatae aut amet quo ea ex nulla, dolores omnis possimus delectus placeat consequatur et! Molestias similique optio impedit consequuntur, ea minus, obcaecati ducimus nulla nisi doloremque nemo quia excepturi velit deserunt blanditiis laudantium. Quidem vel at hic nesciunt fugiat dolore ipsa eos dolorem dignissimos perferendis sint quae inventore expedita, exercitationem <span class="highlight">cum odio culpa fuga tempore error possimus delectus odit natus nulla eligendi?</span>  Eligendi quo nobis maxime iste illum tempore nihil debitis, nostrum temporibus quia minus animi, a, fuga dicta magni quasi. Minima, tempore!</p>
+
+    </section>
+    
     <!-- /second paragraph -->
 
   </main>
@@ -105,10 +127,19 @@
 
   <footer>
     <h5>Potrebbero interessarti</h5>
-    <div class="correlati">
-      <img src="/img/monitor.jpg" alt="monitor">
-      <img src="/img/graph.jpg" alt="grafico">
+    <div >
+      <span class="on-img">Lorem, ipsum dolor.</span>
+      <img class="correlati" src="/img/monitor.jpg" alt="monitor">
+    </div>
+    <div >
+      <span class="on-img">Lorem, ipsum dolor.</span>
+      <img class="correlati" src="/img/graph.jpg" alt="grafico">
     </div>
   </footer>
+
+
+    </div>
+    <!-- /container -->
+    
 </body>
 </html>
