@@ -1,8 +1,17 @@
 * {
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
+header{
+  background-color: rgb(78, 160, 255);
+  background-image: url("/img/pattern.png");
+  background-position: center;
+  background-size: contain;
 
+
+
+}
 
 .logo {
   width: 300px;
