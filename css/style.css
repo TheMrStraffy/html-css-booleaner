@@ -3,10 +3,15 @@
   box-sizing: border-box;
   
 }
+
+.container{
+  
+}
+
  /* header */
 header{
   background-color: rgb(78, 160, 255);
-  background-image: url("/img/pattern.png");
+  background-image: url("../img/pattern.png");
   background-position: center;
   background-size: contain;
   height: 20%;
@@ -20,6 +25,12 @@ header{
 }
 
 /* /header */
+
+/* images */
+.container-images{
+  
+}
+/* /images */
 
 /* main */
 
