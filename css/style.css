@@ -65,62 +65,53 @@ h6{
 ul {
   padding-left: 15px;
 }
+/* /list */
 
 /* table */
 
 .table{
-  background-color: red;
-  width: 100%;
   
-}
-.head-row{
-  background-color: rgb(32, 169, 229);
+  display: table;
   width: 100%;
+
+}
+
+.thead{
+  background-color: rgb(32, 169, 229);
+  display: table-row;
   color: white;
   font-weight: 800;
-  
 }
 
-.first-cell{
-  display: inline-block;
-  width: 20%;
-  
-}
-.second-cell{
-  display: inline-block;
-  width: 20%;
-  
-}
-.third-cell{
-  display: inline-block;
-  width: 59%;
+.th{
+  display: table-cell;
+  width: 25%;
 }
 
-.cell{
-  display: inline-block;
-  top: 50%;
-  transform: translate(0%, -50%);
+.th-description{
+  display: table-cell;
+  width: 49%;
 }
-
-
-
-
-.first-row{
+.t-row{
+  display: table-row;
   background-color: rgb(177, 229, 242);
   color: black;
-  font-weight: 400;
+  
 }
-
-.second-row{
+.second{
   background-color: rgb(255, 255, 255);
   color: black;
-  font-weight: 400;
+  
 }
-.third-row{
-  background-color: rgb(177, 229, 242);
-  color: black;
-  font-weight: 400;
+.td{
+  display: table-cell;
+  vertical-align: middle;
 }
+.td-description{
+  display: table-cell;
+}
+
+
 
 /* table */
 
