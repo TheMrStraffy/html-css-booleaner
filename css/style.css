@@ -1,11 +1,13 @@
 * {
-  margin: 0 auto;
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   
 }
 
 .container{
-  
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
  /* header */
@@ -13,30 +15,36 @@ header{
   background-color: rgb(78, 160, 255);
   background-image: url("../img/pattern.png");
   background-position: center;
-  background-size: contain;
-  height: 20%;
-
+  background-size: 25%;
+  height: 100px;
+  padding: 10px;
 
 }
 
-.logo {
-  width: 30%;
-  padding-top: 6%;
+
+
+header .logo img {
+  width: 300px;
+  margin-top: 30px;
 }
 
 /* /header */
 
+/* main */
+
+
+
 /* images */
 .container-images{
-  
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
 }
 /* /images */
 
-/* main */
 
-.container{
-  margin: 15px 5px;
-}
+
+
 
 section{
   margin: 30px 0px;
@@ -68,9 +76,7 @@ h6{
 
 
 
-.image{
-  height: 300px;
-}
+
 
 /* list */
 ul {
@@ -80,46 +86,22 @@ ul {
 
 /* table */
 
-.table{
-  
-  display: table;
-  width: 100%;
-
-}
-
-.thead{
-  background-color: rgb(32, 169, 229);
-  display: table-row;
-  color: white;
-  font-weight: 800;
-}
-
-.th{
-  display: table-cell;
-  width: 25%;
-}
-
-.th-description{
-  display: table-cell;
-  width: 49%;
-}
-.t-row{
-  display: table-row;
-  background-color: rgb(177, 229, 242);
-  color: black;
-  
-}
-.second{
-  background-color: rgb(255, 255, 255);
-  color: black;
-  
-}
-.td{
-  display: table-cell;
+table{
+  border-collapse: collapse;
   vertical-align: middle;
 }
-.td-description{
-  display: table-cell;
+
+thead{
+  background-color: rgb(32, 169, 229);
+  text-align: left;
+}
+
+.description{
+  width: 50%;
+}
+
+.colored{
+  background-color: rgb(177, 229, 242);
 }
 
 
@@ -136,13 +118,21 @@ footer h5{
   margin-bottom: 10px;
 }
 
-.correlati{
-  position: static;
-  
+.f-img-1{
+  width: 312px;
+  height: 208px;
+  background-image: url("../img/monitor.jpg");
+  margin-bottom: 20px;
+}
+.f-img-2{
+  width: 312px;
+  height: 208px;
+  background-image: url("../img/graph.jpg");
+  margin-bottom: 20px;
 }
 
 .on-img{
-  position: absolute;
+  
   color: white;
   font-weight: 800;
   font-size: 1.5em;

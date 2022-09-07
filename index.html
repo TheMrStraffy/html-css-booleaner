@@ -10,14 +10,18 @@
 <body>
 
   <header>
-
-      <img class="logo" src="./img/logo.svg" alt="The Booleaner">
+    <div class="container">
+      <div class="logo">
+        <img  src="./img/logo.svg" alt="The Booleaner">
+      </div>
+    </div>  
+      
 
   </header>
 
-  <main>
-    <!-- container -->
-    <div class="container">
+  <main class="container">
+    
+    
           <!-- headline -->
         <section>
           <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
@@ -57,39 +61,41 @@
         </section>
         <!-- /list -->
 
-        <!-- table with divs -->
-      
-        <section>
-          <div class="table">
+       <!-- table -->
 
-            <div class="thead">
-              <div class="th">Lorem, ipsum dolor.</div>
-              <div class="th">Lorem, ipsum dolor.</div>
-              <div class="th-description">Lorem, ipsum dolor.</div>
-            </div>
+        <table>
+          <thead>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem, ipsum dolor.</th>
+            <th class="description">Lorem, ipsum dolor.</th>
+          </thead>
 
-            <div class="t-row">
-              <div class="td">Lorem, ipsum dolor.</div>
-              <div class="td">Lorem, ipsum dolor.</div>
-              <div class="td-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nemo natus tempore eum nihil illum vel rem inventore, magni voluptatum minus perspiciatis, ad nam aliquid maiores.</div>
-            </div>
+          <tbody>
+            <tr class="colored">
+              <td>Lorem, ipsum dolor.</td>
+              <td>Lorem, ipsum dolor.</td>
 
-            <div class="t-row second">
-              <div class="td">Lorem, ipsum dolor.</div>
-              <div class="td">Lorem, ipsum dolor.</div>
-              <div class="td-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nemo natus tempore eum nihil illum vel rem inventore, magni voluptatum minus perspiciatis, ad nam aliquid maiores.</div>
-            </div>
+              <td class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus et ab fugiat veritatis provident cum, doloribus reprehenderit, aperiam expedita non recusandae ratione eos, quo veniam. Reiciendis sit sint laboriosam fuga.</td>
 
-            <div class="t-row">
-              <div class="td">Lorem, ipsum dolor.</div>
-              <div class="td">Lorem, ipsum dolor.</div>
-              <div class="td-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nemo natus tempore eum nihil illum vel rem inventore, magni voluptatum minus perspiciatis, ad nam aliquid maiores.</div>
-            </div>
-          </div>
-        </section>
+            </tr>
+            <tr>
+              <td>Lorem, ipsum dolor.</td>
+              <td>Lorem, ipsum dolor.</td>
 
-        
-        <!-- /table with divs -->
+              <td class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus et ab fugiat veritatis provident cum, doloribus reprehenderit, aperiam expedita non recusandae ratione eos, quo veniam. Reiciendis sit sint laboriosam fuga.</td>
+
+            </tr>
+            <tr class="colored">
+              <td>Lorem, ipsum dolor.</td>
+              <td>Lorem, ipsum dolor.</td>
+
+              <td class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus et ab fugiat veritatis provident cum, doloribus reprehenderit, aperiam expedita non recusandae ratione eos, quo veniam. Reiciendis sit sint laboriosam fuga.</td>
+
+            </tr>
+          </tbody>
+        </table>
+
+       <!-- /table -->
 
         <!-- second paragraph -->
         <section>
@@ -102,21 +108,21 @@
       </main>
 
 
-      <footer>
+      <footer class="container">
         <h5>Potrebbero interessarti</h5>
-        <div >
+        <div class="f-img-1">
           <span class="on-img">Lorem, ipsum dolor.</span>
-          <img class="correlati" src="./img/monitor.jpg" alt="monitor">
+          
         </div>
-        <div >
+        <div class="f-img-2">
           <span class="on-img">Lorem, ipsum dolor.</span>
-          <img class="correlati" src="./img/graph.jpg" alt="grafico">
+          
         </div>
       </footer>
 
 
-    </div>
-    <!-- /container -->
+    
+    
     
 </body>
 </html>
